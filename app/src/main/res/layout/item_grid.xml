@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_title"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/title_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/image_title"
+        android:fontFamily="@font/teddybear"
+        android:text="Title"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/cost_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost"
+        android:textSize="18dp"
+        android:layout_toEndOf="@id/image_title"
+        android:layout_below="@id/title_title"/>
+    <TextView
+        android:id="@+id/stock_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock"
+        android:textSize="18dp"
+        android:layout_toEndOf="@id/image_title"
+        android:layout_below="@id/cost_title"/>
+    <TextView
+        android:id="@+id/store_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store"
+        android:textSize="18dp"
+        android:layout_toEndOf="@id/image_title"
+        android:layout_below="@id/stock_title"/>
+    <TextView
+        android:id="@+id/desc_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="18dp"
+        android:layout_toEndOf="@id/image_title"
+        android:layout_below="@id/store_title"/>
+    <TextView
+        android:id="@+id/rewiews_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rewiews"
+        android:textSize="18dp"
+        android:layout_toEndOf="@id/image_title"
+        android:layout_below="@id/desc_title"/>
+</RelativeLayout>
